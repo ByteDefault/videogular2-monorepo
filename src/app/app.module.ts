@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { VgCoreModule } from '@videogular/core';
-import { VgControlsModule } from '../../projects/videogular/controls/src/lib/controls.module';
+import { VgControlsModule } from '@videogular/controls';
 
 @NgModule({
     declarations: [

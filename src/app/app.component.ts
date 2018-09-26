@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { VgAPI } from '../../projects/videogular/core/src/lib/services/vg-api';
+import { VgAPI } from '@videogular/core';
 
 @Component({
     selector: 'app-root',
