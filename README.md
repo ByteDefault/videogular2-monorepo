@@ -6,5 +6,6 @@
 yarn install / npm install
 ##### Build the library
 ng build @videogular/core
+ng build @videogular/controls
 ##### Run the proyect
 ng serve
