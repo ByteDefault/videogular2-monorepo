@@ -61,7 +61,6 @@ export class VgPlayer implements OnInit, AfterContentInit, OnDestroy {
 
     constructor(ref: ElementRef, public api: VgAPI, public fsAPI: VgFullscreenAPI, private controlsHidden: VgControlsHidden) {
         this.elem = ref.nativeElement;
-
         this.api.registerElement(this.elem);
     }
 
