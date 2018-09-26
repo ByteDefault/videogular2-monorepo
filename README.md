@@ -8,4 +8,4 @@ yarn install / npm install
 ng build @videogular/core
 ng build @videogular/controls
 ##### Run the proyect
-ng serve
+npm run start-dev
