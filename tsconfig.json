@@ -29,6 +29,12 @@
       ],
       "@videogular/controls/*": [
         "dist/videogular/controls/*"
+      ],
+      "@videogular/buffering": [
+        "dist/videogular/buffering"
+      ],
+      "@videogular/buffering/*": [
+        "dist/videogular/buffering/*"
       ]
     }
   }

@@ -195,6 +195,41 @@
           }
         }
       }
+    },
+    "@videogular/buffering": {
+      "root": "projects/videogular/buffering",
+      "sourceRoot": "projects/videogular/buffering/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/videogular/buffering/tsconfig.lib.json",
+            "project": "projects/videogular/buffering/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/videogular/buffering/src/test.ts",
+            "tsConfig": "projects/videogular/buffering/tsconfig.spec.json",
+            "karmaConfig": "projects/videogular/buffering/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/videogular/buffering/tsconfig.lib.json",
+              "projects/videogular/buffering/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "videogular2"
